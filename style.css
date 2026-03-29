@@ -6,10 +6,17 @@
 
 #product-container div {
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 12px;
     width: 200px;
+    border-radius: 8px;
+    background-color: white;
+}
+#product-container div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 img {
     width: 100%;
+    border-radius: 6px;
 }

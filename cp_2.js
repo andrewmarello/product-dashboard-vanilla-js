@@ -59,3 +59,11 @@ function fetchProductsThen() {
             container.appendChild(card);
         });
     }
+
+    function handleError(error) {
+        console.error(`An error occured: ${error}`);
+    }
+
+    fetchProductsThen();
+    fetchProductsAsync();
+    
