@@ -1,0 +1,15 @@
+#product-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#product-container div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+}
+
+img {
+    width: 100%;
+}
